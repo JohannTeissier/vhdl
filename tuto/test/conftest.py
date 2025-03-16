@@ -8,6 +8,7 @@ def runner():
     sources = [
         "half_adder.vhd",
         "full_adder.vhd",
+        "adder.vhd"
     ]
 
     rtl_path = (Path(__file__) / "../../vhdl/src").resolve()
